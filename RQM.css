@@ -1,0 +1,60 @@
+body {
+   background: #606c88;  /* fallback for old browsers */
+   background: -webkit-linear-gradient(to right, #3f4c6b, #606c88);  /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to right, #3f4c6b, #606c88); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   background-size: 100%;
+   font-family: 'Open Sans', sans-serif;
+   color: #606c88;;
+}
+
+.main{
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 7%;
+  padding-top: 1%;
+  background: #fcf5e3;
+  box-shadow: 10px 10px 5px #050e02;
+}
+
+.logo{
+  font-family: 'Modak', cursive;
+  text-shadow: 2px 2px #090c03;
+  padding-bottom: 10%;
+  color: #606c88;
+}
+
+
+#author{
+  text-align:  right;
+  font-size: 20px;
+}
+
+
+.btn{
+  display: block;
+  background: #606c88;  /* fallback for old browsers */
+  color: #fcf5e3;
+  box-shadow: 2px 3px 2px #050e02;
+  font-size: 25px;
+  font-family: 'Modak', cursive;
+  text-shadow: 1px 2px 1px #050e02;
+  width: 200px;
+  margin: auto;
+  margin-bottom: 10px;
+  padding: 5px;
+  text-align: center;
+  vertical-align: bottom;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background: #606c88;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #3f4c6b, #606c88);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #3f4c6b, #606c88); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: left;
+}
