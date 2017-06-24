@@ -5,7 +5,8 @@ function Tiger() {
 
 Tiger.prototype.act = function(view) {
     var space = view.find(" ");
-    if (this.energy > 200 && space) {
+    var maxEnergyForTiger = 200;
+    if (this.energy > maxEnergyForTiger && space) {
         return {
             type: "reproduce",
             direction: space
