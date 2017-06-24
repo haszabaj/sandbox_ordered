@@ -1,9 +1,8 @@
 function average(array) {
-    function plus(a, b) {
-        return a + b;
-    }
-    return array.reduce(plus) / array.length;
+  function plus(a, b) { return a + b; }
+  return array.reduce(plus) / array.length;
 }
+
 
 function groupBy(array, groupOf) {
     var groups = {};
@@ -12,10 +11,8 @@ function groupBy(array, groupOf) {
 
         if (!Array.isArray(groups[groupName])) {
             groups[groupName] = [];
-            groups[groupName].push(element);
-        } else {
-            groups[groupName] = [element];
-        }
+        } 
+        groups[groupName].push(element);
     })
 
     return groups;
