@@ -1,0 +1,50 @@
+html {
+    position: relative;
+    min - height: 100 % ;
+}
+
+body {
+    margin: 0 0 100 px; /* bottom = footer height */;
+    padding: 25 px;
+    background - image: url("http://www.photos-public-domain.com/wp-content/uploads/2011/11/cream-colored-paper-texture-with-flecks.jpg");
+}
+
+.main {
+    opacity: 0.8;
+    filter: alpha(opacity = 30); /* For IE8 and earlier */;
+    background - color: #d1cdb7;
+    height: 50 % ;
+    width: 50 % ;
+    margin: auto;
+    margin - top: 10 % ;
+    color: #191710;
+ 	text-align: center;
+  	font-family: 'Chivo', sans-serif;
+  
+}
+
+#mainWeatherContainer {
+    font - size: 2e m;
+}
+
+#location {
+    font - size: 4e m;
+}
+
+#toggle {
+    background - color: #191710;
+  	color: # d1cdb7;
+    border: 1 px solid;
+    border - color: #191710;  
+}
+
+.footer {
+  padding-left: 5%;
+  font-family: 'Chivo', sans-serif;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  
+}
