@@ -1,0 +1,150 @@
+html {
+    position: relative;
+    min-height: 100%;
+ }
+
+body {
+   font-family: 'Slabo 27px', serif;
+    margin: 0 px;
+    padding-bottom: 0px;
+    position: relative;
+    min-height: 100%;
+    background: url('http://www.texturex.com/albums/Stone-Textures/stone%20texture%20rough%20grunge%20surface%20dirty%20rock%20ground%20wall%20photo.jpg') no-repeat center center fixed; 
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+}
+
+
+#header{
+  font-family: 'Faster One', cursive;
+  color: #000000;
+  text-align: center;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+#wikiLogo{
+  height: 15rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;   
+}
+
+#random{
+  display: center;
+}
+
+#searchTerm{
+  font-family: 'Slabo 27px', serif;
+}
+
+/* changing default form hightlight! */
+
+.form-control:focus {
+  border-color: #fbfaf9;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(251, 250, 249, 1)
+}
+
+
+#searchBtn{
+  margin:auto 0;
+  margin-top: 8%;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+#searchButton{
+  font-family: 'Slabo 27px', serif;
+  font-size: 1,5rem;
+  background: #000000;
+}
+
+.mybutton { 
+  color: #F5F0F0; 
+  background-color: #2C2830; 
+  border-color: #2C2830; 
+} 
+ 
+.mybutton:hover, 
+.mybutton:focus, 
+.mybutton:active, 
+.mybutton.active, 
+.open .dropdown-toggle.mybutton { 
+   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(251, 250, 249, 1)
+} 
+ 
+.mybutton.disabled, 
+.mybutton[disabled], 
+fieldset[disabled] .mybutton, 
+.mybutton.disabled:hover, 
+.mybutton[disabled]:hover, 
+fieldset[disabled] .mybutton:hover, 
+.mybutton.disabled:focus, 
+.mybutton[disabled]:focus, 
+fieldset[disabled] .mybutton:focus, 
+.mybutton.disabled:active, 
+.mybutton[disabled]:active, 
+fieldset[disabled] .mybutton:active, 
+.mybutton.disabled.active, 
+.mybutton[disabled].active, 
+fieldset[disabled] .mybutton.active { 
+  background-color: #2C2830; 
+  border-color: #000000; 
+} 
+ 
+.outputItem{
+  opacity: 0.8;
+  background-color: #c2b8b3;
+  color: #000000;
+  font-size: 1rem;
+  padding: 2rem;
+  margin-bottom: 3%;
+  
+}
+
+#output{
+  padding-top: 8%;
+  padding-bottom: 8%;
+}
+
+.link{
+  color: #000000;
+  font-size: 2rem;
+  font-weight: bold; 
+  
+}
+
+.link:hover{
+  color: #000000;
+  font-weight: bolder;
+}
+
+.footer{
+  padding-left: 5%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  font-size: 1rem;
+  height: 50px;
+  padding: 1rem;
+  opacity: 0.5;
+  background-color: #c2b8b3;
+  color: #000000;
+  
+}
+
+.footer-link{
+ color: #000000;
+  font-size: 1,5rem;
+  font-weight: bold; 
+}
+
+.footer-link:hover{
+  color: #000000;
+  font-weight: 900;
+}
+
+
